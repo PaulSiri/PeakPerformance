@@ -1,7 +1,7 @@
 # PeakPerformance
 Trivia Practice Website
 
-peakperformance.app
+https://peakperformance.app/
 
 Hello! This project is a collaboration between myself, Paul Siri, and a friend Jared Cubilla. We are both huge fans of trivia, competing in local high school "Reach For The Top" events, and we often use sites such as protobowl to practice for events. However, we wanted a way to practice that was more similar to the structure of Reach For The Top trivia, so we decided to make PeakPerformance!
 
