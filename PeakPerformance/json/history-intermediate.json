@@ -1,0 +1,71 @@
+{
+	"category": "History",
+	"difficulty": "Intermediate",
+	"subcategories": [
+		{
+			"subcategory": "General History",
+			"questions": [
+				{
+					"question": "What name was given by the French to the combined regions of Nova Scotia and New Brunswick?",
+					"answer": ["Acadia"]
+				},
+				{
+					"question": "What great conqueror's body was reportedly preserved in honey after his premature death?",
+					"answer": ["Alexander the Great"]
+				},
+				{
+					"question": "Which Canadian statesman was awarded the Nobel Peace Prize in 1957 for his efforts to resolve the Suez Crisis?",
+					"answer": ["Lester Bowles Pearson", "Lester Pearson", "Pearson"]
+				},
+				{
+					"question": "Considered the 'cradle of civilization', this ancient region of west Asia has what name that refers to its location between the Tigris and Euphrates rivers?",
+					"answer": ["Mesopotamia"]
+				},
+				{
+					"question": "Who was the first prime minister of Canada born in the 1900s?",
+					"answer": ["Pierre Trudeau", "Trudeau"]
+				},
+				{
+					"question": "What nation's monarch sat on the Peacock Throne until the late 20th century?",
+					"answer": ["Iran"]
+				},
+				{
+					"question": "Who commanded the French army at the Battle of Austerlitz?",
+					"answer": ["Napoleon", "Napoleon Bonaparte", "Bonaparte"]
+				},
+				{
+					"question": "In what city was the riotous 1968 Democratic National Convention held?",
+					"answer": ["Chicago"]
+				},
+				{
+					"question": "Who was Canada's Prime minister during the First World War?",
+					"answer": ["Robert Borden", "Borden"]
+				},
+				{
+					"question": "In what year did the Berlin Wall come down?",
+					"answer": ["1989"]
+				},
+				{
+					"question": "On May 9, 1955, the Federal Republic of Germany became the fifteenth member of what alliance?",
+					"answer": ["NATO", "North Atlantic Treaty Organization"]
+				},
+				{
+					"question": "What was the code name for the Invasion of Normandy?",
+					"answer": ["Operation Overlord", "Overlord"]
+				},
+				{
+					"question": "Which German field marshall was known as the 'Desert Fox'?",
+					"answer": ["Erwin Rommel", "Rommel"]
+				},
+				{
+					"question": "Who commanded the French Troops who lifted the Siege of Orleans?",
+					"answer": ["Joan of Arc"]
+				},
+				{
+					"question": "What collective term was applied to the democratic uprisings in the Middle East that began in 2011?",
+					"answer": ["The Arab Spring", "Arab Spring"]
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Peak Performance</title>
+	<link href="https://fonts.googleapis.com/css?family=Oxygen" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<!-- please end my fucking life -->
+	<link rel="apple-touch-icon" sizes="57x57" href="favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+	<link rel="manifest" href="favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+	<!-- ok that's it sorry -->
+</head>
+<body>
+	<div id = "main">
+		<img id = "main-logo" class = "logo" src = "images/logo.png"></img>
+		<div id = "start-page">
+			<h6 class = "subtitle" id = "tagline">A Work in Progress by Paul Siri and Jared Cubilla</h6>
+			<div>
+				<button id = "play-button" class = "button">Choose Category</button>
+			</div>
+			<div>
+				<button id = "instructions-button" class = "button">Instructions</button>
+			</div>
+			<div>
+				<button id = "about-button" class = "button">About</button>
+			</div>
+		</div>
+
+		<div id = "instructions-page">
+			<h6 class = "subtitle">Instructions</h6>
+			<h3>Startup</h3>
+			<ul>
+				<li>Select a category (eg. Music) to practice at either intermediate or senior difficulty.</li>
+				<li>Select a subcategory (eg. Pop Music) and get ready to play!</li>
+			</ul>
+			<h3>Gameplay Controls</h3>
+			<ul>
+				<li>Press <strong>SPACE</strong> to buzz in for an answer</li>
+				<li>Press <strong>ENTER</strong> to submit your answer</li>
+				<li>Press <strong>N</strong> to move to the next question</li>
+			</ul>
+			<h3>Extra Rules</h3>
+			<ul>
+				<li>If your answer to a question is close but not quite right, you will be "prompted", this is a second chance to fix your answer!</li>
+			</ul>
+			<button class = "button back-button">Back</button>
+		</div>
+
+		<div id = "about-page">
+			<h6 class = "subtitle">About</h6>
+			<p><strong>PeakPerformance</strong> was developed by Paul Siri and Jared Cubilla, two students from Cameron Heights Collegiate Institute, over the course of two-ish weeks in July 2018. Paul and Jared are passionate members of their school's "Reach For The Top" team, a local competitive trivia club with elements of both Quiz Bowl and Jeopardy. They looked to quiz applications like QuizUp and Protobowl in hopes of improving their game, but these apps, while helpful, could have been much improved. Paul and Jared decided to develop their own trivia app, with the goal of being able to truly reach for the top; to attain <strong>PeakPerformance</strong>.
+			</p>
+			<button class = "button back-button">Back</button>
+		</div>
+
+		<div id = "category-page">
+
+			<div class="difficulty-select-box">
+			    <div class="toggle-half">
+			        <div class="toggle">
+			            <p>Senior</p>
+			        </div>
+			        <div class="toggle">
+			            <p>Intermediate</p>
+			        </div>
+			    </div>
+			    <div class="toggle-half toggle-container">
+			        <div class="toggle">
+			            <p>Senior</p>
+			        </div>
+			        <div class="toggle">
+			            <p>Intermediate</p>
+			        </div>
+			    </div>
+			</div>
+
+			<div class = "big-button-row">
+				<button id = "every-button" class = "button big-button">
+					<h3>Everything</h3>
+				</button>
+			</div>
+			<div id = "category-gallery">
+				<span id = "slide-1" class = "slide cat-slide">
+					<span class = "two-button-group">
+						<button id = "geo-button"class = "button half-button cat-button">
+							<img class = "icon" src="images/icons/geography.png">
+							<h6>Geography</h6>
+						</button>
+						<button id = "sci-button"class = "button half-button cat-button">
+							<img class = "icon" src="images/icons/science.png">
+							<h6>Science</h6>
+						</button>
+					</span>
+					<div></div>
+					<span class = "two-button-group">
+						<button id = "spo-button"class = "button half-button cat-button">
+							<img class = "icon" src="images/icons/sports.png">
+							<h6>Sports</h6>
+						</button>
+						<button id = "mov-button"class = "button half-button cat-button">
+							<img class = "icon" src="images/icons/movies.png">
+							<h6>Movies</h6>
+						</button>
+					</span>
+				</span>
+				<span id = "slide-2" class = "slide cat-slide">
+					<span class = "two-button-group">
+						<button id = "lit-button"class = "button half-button cat-button">
+							<img class = "icon" src="images/icons/literature.png">
+							<h6>Literature</h6>
+						</button>
+						<button id = "mus-button"class = "button half-button cat-button">
+							<img class = "icon" src="images/icons/music.png">
+							<h6>Music</h6>
+						</button>
+					</span>
+					<div></div>
+					<span class = "two-button-group">
+						<button id = "his-button"class = "button half-button cat-button">
+							<img class = "icon" src="images/icons/history.png">
+							<h6>History</h6>
+						</button>
+					</span>
+				</span>
+			</div>
+			<div>
+				<aside class = "right-aside">
+					<button id = "right-cat-arrow" class = "arrow-button">></button>
+				</aside>
+			</div>
+			<div>
+				<aside class = "left-aside">
+					<button id = "left-cat-arrow" class = "arrow-button"><</button>
+				</aside>
+			</div>
+		</div>
+
+		<!-- NEW STUFF-->
+		<div id = "subcategory-page">
+
+			<!-- DON'T FORGET TO ADD EVERYTHING BUTTON HERE, I FORGOT IT BEFORE, MB -->   
+			<div class = "big-button-row">
+				<button id = "every-cat-button" class = "button big-button">
+					<h3 id="everything-subcat-text">Everything</h3>
+				</button>
+			</div>
+			<div id = "subcategory-gallery">
+			</div>
+			<div>
+				<aside class = "right-aside">
+					<button id = "right-subcat-arrow" class = "arrow-button">></button>
+				</aside>
+			</div>
+			<div>
+				<aside class = "left-aside">
+					<button id = "left-subcat-arrow" class = "arrow-button"><</button>
+				</aside>
+			</div>
+		</div>
+
+
+		<div id= "game-page">
+			<div id = "info-bar">
+				<h2 id = "category-title"></h2>
+				<!-- NEW STUFF -->
+				<span id = "timer-box">
+					<span id = "timer-text-box">
+						<h2 id = "timer">10</h2>
+					</span>
+					<span id = "timer-bar-box">
+						<span id = "timer-bar"></span>
+					</span>
+				</span>
+				<h2 id = "points-title">Points: <span id="points"></span></h2>
+			</div>
+			<div id = "question-box">
+				<h1 id = "question-text"></h1>
+			</div>
+			<div id = "answer-box">
+				<input type= "text" id = "answer-input">
+			</div>
+			<div id = "right-wrong">
+				<h2 id="rw-text">u dumb</h2>
+			</div>
+			<div>
+				<button id = "end-button" class = "button">End Game</button>
+			</div>
+		</div>
+<!--
+		<div id="loading-page">
+			<img src="images/gifs/loading.gif" id="loading-gif"/>
+		</div>
+-->
+		<!-- This shit new-->
+		<div id = "results-page">
+			<div id = "results-points">
+				<h1>Points: </h1>
+			</div>
+			<div id = "results-right">
+				<h2>Right: </h2>
+			</div>
+			<div id = "results-wrong">
+				<h2>Wrong: </h2>
+			</div>
+			<div id = "results-late">
+				<h2>Out of Time: </h2>
+			</div>
+			<div id = "results-button-bar">
+				<button id = "again-same-button" class="button results-button">Play Same Category</button>
+				<button id = "again-different-button" class="button results-button">Choose Another Category</button>
+				<button id = "quit-menu-button" class="button results-button">Main Menu</button>
+			</div>
+		</div>
+	</div>
+	<script src = "https://code.jquery.com/jquery-3.3.1.min.js"></script>
+	<script src = "scripts/jquery.easing.1.3.js"></script>
+	<script src = "scripts/main.js"></script>
+	<script src = "scripts/fuzzyset.js"></script>
+</body>
+</html>

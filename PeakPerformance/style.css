@@ -1,0 +1,374 @@
+body{
+	background-color: #4b96b5;
+	color: #fff;
+	font-family: 'Oxygen', sans-serif;
+	font-size: 16px;
+	line-height: 1.6em;
+	margin: 0;
+	text-align: center;
+}
+
+*:focus{
+	outline: none;
+}
+
+*{
+	user-select: none;
+}
+
+#about-page{
+	display: none;
+}
+
+#about-page p{
+	margin: auto;
+	margin-top: 3em;
+	margin-bottom: 3em;
+	text-align: center;
+	width: 70%;
+}
+
+#game-page{
+	display: none;
+}
+
+#instructions-page{
+	display: none;
+}
+
+#instructions-page ul{
+	margin-top: 0;
+	list-style-type: none;
+	padding: 0;
+}
+
+#instructions-page h3{
+	margin-bottom: 0.4em;
+}
+
+#instructions-page li{
+	list-style-type: none;
+}
+
+#category-page{
+	display: none;
+}
+
+/*
+#loading-page {
+	display:none;
+}
+
+
+#loading-gif {
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	width: 10%;
+	margin-top: -5%;
+	margin-left: -5%;
+}
+*/
+/*All the result boiz*/
+#results-page{
+	display: none;
+}
+
+#results-page h1{
+	position: relative;
+	font-size: 70px;
+	top : -30px;
+}
+
+#results-page h2{
+	font-size: 60px;
+}
+
+#results-right{
+	color: #07ff03;
+}
+
+#results-wrong{
+	color: #D74046;
+}
+
+#results-late{
+	color: #ffff00;
+}
+
+/*NEW STUFF*/
+#subcategory-page{
+	display: none;
+}
+
+.slide{
+	white-space: nowrap;
+}
+
+#slide-2{
+	display: none;
+}
+
+.title{
+	font-size: 60px;
+}
+
+.subtitle{
+	font-size: 30px;
+	margin: 0;
+	margin-bottom: 10px;
+	position: relative;
+}
+
+.right-aside{
+	float: right;
+	position: fixed;
+	right: 20px;
+	bottom:360px;
+}
+
+.left-aside{
+	float: left;
+	position: fixed;
+	left: 20px;
+	bottom:360px;
+}
+
+#tagline{
+	left: -110%;
+}
+
+.logo{
+	max-height: 375px;
+	position: relative;
+	bottom: 130px;
+	margin-bottom: -130px;
+}
+
+.icon{
+	max-height: 100px;
+	position: relative;
+}
+
+#main-logo{
+	bottom: 400px;
+}
+
+#category-title{
+	display: inline-block;
+	padding-left: 150px;
+	padding-right: 150px;
+	position: fixed;
+	text-align: center;
+	top: 160px;
+	left: 20px;
+}
+
+#points-title{
+	display: inline-block;
+	padding-left: 150px;
+	padding-right: 150px;
+	position: fixed;
+	text-align: center;
+	right: 20px;
+	top: 160px;
+}
+
+#timer-text-box{
+	display: inline-block;
+	width: 25px;
+	height: 20px;
+}
+
+#timer{
+	display: inline;
+	text-align: center;
+}
+
+#timer-box{	
+	display: inline-block;
+}
+
+#timer-bar-box{
+	display: inline-block;
+	width: 150px;
+	height: 20px;
+	background-color: #f0f0f0;
+}
+
+#timer-bar{
+	float: left;
+	display: inline-block;
+	height: 20px;
+	background-color: red;
+}
+
+#question-box{
+	background-color: #f0f0f0;
+	color: #4b96b5;
+	width: 60%;
+	height: 200px;
+	border-radius: 10px;
+	text-align: center;
+	margin: auto;
+}
+
+#question-text{
+	position: relative;
+	line-height: 1.2em;
+	top: 10%;
+	bottom: 90%;
+}
+
+#answer-input{
+	background-color: #f0f0f0;
+	font-size: 30px;
+	color: #4b96b5;
+	width: 70%;
+	height: 100px;
+	border-width: 0;
+	border-radius: 10px;
+	text-align: center;
+	margin: auto;
+	margin-top: 50px;
+}
+
+button{
+	cursor: pointer;
+}
+
+.button{
+	color: #4b96b5;
+	font-family: 'Oxygen', sans-serif;
+	background-color: #f0f0f0;
+	font-size: 40px;
+	background-position: center center;
+	background-repeat: no-repeat;
+	border-color: #417e97;
+	border-style: solid;
+	border-width: 5px;
+	border-radius: 10px;
+	height: 145px;
+	width: 600px;
+	margin-bottom: 10px;
+}
+
+.half-button{
+	text-align: left;
+	text-indent: 150px;
+}
+
+.half-button h6{
+	padding-top: 30px;
+	margin: auto;
+}
+
+.half-button img{
+	float: left;
+	left: 100px;
+}
+
+.big-button{
+	margin-top: 35px;
+	width: 78.25%;
+}
+
+.arrow-button{
+	color: #4b96b5;
+	font-family: 'Oxygen', sans-serif;
+	font-weight: 1000; 
+	font-size: 30px;
+	background-color: #f0f0f0;
+	border-color: #417e97;
+	min-height: 80px;
+	min-width: 80px;
+	border-radius: 80px;
+	border-style: solid;
+	border-width: 5px;
+}
+
+/*Subcat stuff changed*/
+.subcat-button{
+	text-align: center;
+	text-indent: 0;
+}
+
+.subcat-button h6{
+	padding-top: 0;
+}
+
+.results-button{
+	height: 90px;
+}
+
+#play-button{
+	opacity: 0;
+}
+
+#instructions-button{
+	opacity: 0;
+}
+
+#about-button{
+	opacity: 0;
+}
+
+/*Stuff past here all new*/
+#end-button{
+	max-height: 100px;
+	max-width: 15%;
+	
+}
+
+button:hover{
+	background-color: #fff;
+}
+
+.difficulty-select-box {
+    width: 350px;
+    height: 31px;
+    margin: auto;
+    margin-bottom: -30px;
+    position: relative;
+    border-radius: 5px;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.toggle-half {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: inherit;
+    height: inherit;
+    font-size: 1em;
+    font-weight: 800;
+}
+
+.toggle-half:first-child {
+    background: #f0f0f0;
+    color: #4b96b5;
+}
+
+.toggle-half:nth-child(2) {
+    background: dodgerblue;
+    color: #f0f0f0;
+    clip-path: inset(0 50% 0 0);
+    transition: .3s cubic-bezier(0,0,0,1);
+}
+
+.toggle {
+    width: 50%;
+    position: absolute;
+    height: inherit;
+    display: flex;
+    box-sizing: border-box;
+}
+
+.toggle p {
+    margin: auto;
+}
+
+.toggle:nth-child(1) {
+    right: 0;
+}

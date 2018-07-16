@@ -1,0 +1,99 @@
+{
+	"category": "Music",
+	"difficulty": "Senior",
+	"subcategories": [
+		{
+			"subcategory": "Pop Music",
+			"questions": [
+				{
+					"question": "Which Canadian pop star broke out with the 2012 hit single 'Call Me Maybe?'?",
+					"answer": ["Carly Rae Jepsen", "Carly Jepsen", "Jepsen", "God"]
+				},
+				{
+					"question": "As of July 2018, what Ed Sheeran song is the most streamed Spotify single of all time?",
+					"answer": ["Shape of You"]
+				},
+				{
+					"question": "What pop singer released the albums 'Artpop' and 'The Fame'?",
+					"answer": ["Lady Gaga", "Gaga"]
+				},
+				{
+					"question": "What New Zealand based singer's real name is Ella Marija Lani Yelich-O'Connor?",
+					"answer": ["Lorde"]
+				},
+				{
+					"question": "What country does pop singer Rihanna hail from?",
+					"answer": ["Barbados"]
+				}
+			]
+		},
+		{
+			"subcategory": "Classical Music",
+			"questions": [
+				{
+					"question": "Which French impressionist composed 'Bolero'?",
+					"answer": ["Maurice Ravel", "Ravel"]
+				},
+				{
+					"question": "Who composed hthe music for the German National Anthem",
+					"answer": ["Joseph Haydn", "Haydn"]
+				},
+				{
+					"question": "What country does renowned composer Frederic Chopin hail from?",
+					"answer": ["Poland"]
+				}
+			]
+		},
+		{
+			"subcategory": "Musicals",
+			"questions": [
+				{
+					"question": "Teyve is a character in what musical centered around a Jewish family?",
+					"answer": ["Fiddler on the Roof"]
+				},
+				{
+					"question": "What musical won the first Tony for Best Musical?",
+					"answer": ["Kiss Me Kate"]
+				},
+				{
+					"question": "West Side Story was directly based off of what Shakespeare play?",
+					"answer": ["Romeo and Juliet"]
+				}
+			]
+		},
+		{
+			"subcategory": "The Beatles",
+			"questions": [
+				{
+					"question": "Which of the Beatles was the first to release a solo album?",
+					"answer": ["George Harrison", "Harrison"]
+				},
+				{
+					"question": "On February 9, 1964, what popular American television show did the Beatles perform on, kickstarting the British Invasion?",
+					"answer": ["The Ed Sullivan Show", "Ed Sullivan Show", "Ed Sullivan"]
+				},
+				{
+					"question": "Which of the Beatles famously remarked that \"Ringo wasn't even the best drummer in The Beatles\"?",
+					"answer": ["John Lennon", "Lennon"]
+				}
+			]
+		},
+		{
+			"subcategory": "Hip-Hop",
+			"questions": [
+				{
+					"question": "What Kendrick Lamar album lost out to Taylor Swift's 1989 for the 2016 Grammy Album of the Year?",
+					"answer": ["To Pimp A Butterfly", "TPAB"]
+				},
+				{
+					"question": "Which famous rapper has the real name Curtis Jackson?",
+					"answer": ["50 Cent"]
+				},
+				{
+					"question": "Which influential hip hop group featured the members Chuck D and Flavor Flav?",
+					"answer": ["Public Enemy"]
+				}
+			]
+		}
+	]
+}
